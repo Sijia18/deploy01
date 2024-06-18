@@ -10,7 +10,7 @@ public class PersonController {
     @Value("${devName}")
     private String devName;
 
-    @GetMapping("/devName")
+    @GetMapping
     public String readDevName() {
         return devName;
     }
